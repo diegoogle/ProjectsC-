@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTemas" targetNamespace="http://tempuri.org/dsTemas.xsd" xmlns:mstns="http://tempuri.org/dsTemas.xsd" xmlns="http://tempuri.org/dsTemas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTemas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsTemas" msprop:Generator_DataSetName="dsTemas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="temas" msprop:Generator_TableClassName="temasDataTable" msprop:Generator_TableVarName="tabletemas" msprop:Generator_TablePropName="temas" msprop:Generator_RowDeletingName="temasRowDeleting" msprop:Generator_RowChangingName="temasRowChanging" msprop:Generator_RowEvHandlerName="temasRowChangeEventHandler" msprop:Generator_RowDeletedName="temasRowDeleted" msprop:Generator_UserTableName="temas" msprop:Generator_RowChangedName="temasRowChanged" msprop:Generator_RowEvArgName="temasRowChangeEvent" msprop:Generator_RowClassName="temasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tema" msprop:Generator_ColumnVarNameInTable="columntema" msprop:Generator_ColumnPropNameInRow="tema" msprop:Generator_ColumnPropNameInTable="temaColumn" msprop:Generator_UserColumnName="tema">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_tema" msprop:Generator_ColumnVarNameInTable="columnid_tema" msprop:Generator_ColumnPropNameInRow="id_tema" msprop:Generator_ColumnPropNameInTable="id_temaColumn" msprop:Generator_UserColumnName="id_tema" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:temas" />
+      <xs:field xpath="mstns:id_tema" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

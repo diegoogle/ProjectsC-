@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAsignaturasNotas" targetNamespace="http://tempuri.org/dsAsignaturasNotas.xsd" xmlns:mstns="http://tempuri.org/dsAsignaturasNotas.xsd" xmlns="http://tempuri.org/dsAsignaturasNotas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAsignaturasNotas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAsignaturasNotas" msprop:Generator_DataSetName="dsAsignaturasNotas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="alums_asigs" msprop:Generator_UserTableName="alums_asigs" msprop:Generator_RowDeletedName="alums_asigsRowDeleted" msprop:Generator_TableClassName="alums_asigsDataTable" msprop:Generator_RowChangedName="alums_asigsRowChanged" msprop:Generator_RowClassName="alums_asigsRow" msprop:Generator_RowChangingName="alums_asigsRowChanging" msprop:Generator_RowEvArgName="alums_asigsRowChangeEvent" msprop:Generator_RowEvHandlerName="alums_asigsRowChangeEventHandler" msprop:Generator_TablePropName="alums_asigs" msprop:Generator_TableVarName="tablealums_asigs" msprop:Generator_RowDeletingName="alums_asigsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nota" msprop:Generator_UserColumnName="nota" msprop:Generator_ColumnPropNameInRow="nota" msprop:Generator_ColumnVarNameInTable="columnnota" msprop:Generator_ColumnPropNameInTable="notaColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="id_alumno" msprop:Generator_UserColumnName="id_alumno" msprop:Generator_ColumnPropNameInRow="id_alumno" msprop:Generator_ColumnVarNameInTable="columnid_alumno" msprop:Generator_ColumnPropNameInTable="id_alumnoColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
