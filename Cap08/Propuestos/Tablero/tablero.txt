@@ -1,0 +1,7 @@
+Para dibujar a mano alzada, primero haga clic sobre esta herramienta. A continuación sitúe el cursor en la posición del área de cliente donde desea comenzar a dibujar y pulse el botón izquierdo del ratón; con este botón pulsado, arrastre en la dirección deseada. Para finalizar, suelte el botón.
+
+Para dibujar líneas, primero haga clic sobre esta herramienta. A continuación sitúe el cursor en la posición del área de cliente donde desea que comience la línea, pulse el botón izquierdo del ratón y con él pulsado mueva el ratón en la dirección deseada hasta dejar la línea con la longitud e inclinación requeridas. Para finalizar, suelte el botón.
+
+Para dibujar cuadrados o rectángulos, primero haga clic sobre esta herramienta. A continuación sitúe el cursor en la posición del área de cliente donde desea situar la esquina superior izquierda de la caja, pulse el botón izquierdo del ratón y con él pulsado mueva el ratón en la dirección deseada hasta dibujar el rectángulo.
+
+Para dibujar círculos o elipses, primero haga clic sobre esta herramienta. A continuación sitúe el cursor en la posición del área de cliente donde desea situar la elipse o el círculo, pulse el botón izquierdo del ratón y con él pulsado mueva el ratón en la dirección deseada hasta dibujar la elipse.
