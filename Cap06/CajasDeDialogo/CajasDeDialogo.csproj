@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FD804E5-E2D2-477E-B714-A17CC6D95886}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CajasDeDialogo</RootNamespace>
+    <AssemblyName>CajasDeDialogo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DlgAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgAcercaDe.Designer.cs">
+      <DependentUpon>DlgAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgBotonOpcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgBotonOpcion.Designer.cs">
+      <DependentUpon>DlgBotonOpcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgCasillaVerificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgCasillaVerificacion.Designer.cs">
+      <DependentUpon>DlgCasillaVerificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgControlConPestañas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgControlConPestañas.Designer.cs">
+      <DependentUpon>DlgControlConPestañas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgControlesRangoDefinido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgControlesRangoDefinido.Designer.cs">
+      <DependentUpon>DlgControlesRangoDefinido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgGestionFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgGestionFechas.Designer.cs">
+      <DependentUpon>DlgGestionFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgListaDesplegable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgListaDesplegable.Designer.cs">
+      <DependentUpon>DlgListaDesplegable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgListaSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgListaSimple.Designer.cs">
+      <DependentUpon>DlgListaSimple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgPalabraDePaso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgPalabraDePaso.Designer.cs">
+      <DependentUpon>DlgPalabraDePaso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgPanelDeDiseño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgPanelDeDiseño.Designer.cs">
+      <DependentUpon>DlgPanelDeDiseño.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DlgTemporizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DlgTemporizador.Designer.cs">
+      <DependentUpon>DlgTemporizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DlgAcercaDe.resx">
+      <DependentUpon>DlgAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgBotonOpcion.resx">
+      <DependentUpon>DlgBotonOpcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgCasillaVerificacion.resx">
+      <DependentUpon>DlgCasillaVerificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgControlConPestañas.resx">
+      <DependentUpon>DlgControlConPestañas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgControlesRangoDefinido.resx">
+      <DependentUpon>DlgControlesRangoDefinido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgGestionFechas.resx">
+      <DependentUpon>DlgGestionFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgListaDesplegable.resx">
+      <DependentUpon>DlgListaDesplegable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgListaSimple.resx">
+      <DependentUpon>DlgListaSimple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgPalabraDePaso.resx">
+      <DependentUpon>DlgPalabraDePaso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgPanelDeDiseño.resx">
+      <DependentUpon>DlgPanelDeDiseño.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DlgTemporizador.resx">
+      <DependentUpon>DlgTemporizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Lighthouse.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
