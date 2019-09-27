@@ -1,0 +1,10 @@
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\bin\Debug\ApWinForms.exe.config
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\bin\Debug\ApWinForms.exe
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\bin\Debug\ApWinForms.pdb
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.csprojResolveAssemblyReference.cache
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.Form1.resources
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.PantallaDePresentacion.resources
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.Properties.Resources.resources
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.csproj.GenerateResource.Cache
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.exe
+C:\Users\fjceballos\Documents\Libros\Libros_en_producción\Enciclopedia-MS-VC#-4Ed\Ejemplos\Projects\Cap03\SplashScreen\obj\Debug\ApWinForms.pdb
