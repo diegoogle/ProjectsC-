@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseDeDatos.Alumno" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAQgAAAAgAIAAEIAECEIAAiQAAAAAAIAABAAACCAA=</HashCode>
+      <FileName>Alumno.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseDeDatos.Asignatura" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAAAAACABEIAAAAAEAgAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Asignatura.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseDeDatos.Asignaturas" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAQ=</HashCode>
+      <FileName>Asignaturas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseDeDatos.bbdd" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAACAAAAAAAIAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>bbdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseDeDatos.ListAlumnos" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListAlumnos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
