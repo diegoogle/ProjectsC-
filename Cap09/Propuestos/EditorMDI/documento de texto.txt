@@ -1,0 +1,5 @@
+El control RichTextBox se utiliza para mostrar, escribir y manipular texto con formato. Hace todo lo que realiza el control TextBox, y además, permite mostrar fuentes, colores y vínculos, cargar texto e imágenes desde un fichero, y buscar caracteres especificados. De forma predeterminada muestra tanto barra de desplazamiento horizontal como vertical, según se precise.
+
+Como sucede con el control TextBox, el texto que muestra el control RichTextBox se establece con su propiedad Text y tiene otras propiedades para dar formato al texto, establecer los atributos de la fuente, establecer sangrías, sangrías francesas y párrafos con viñetas, etc. Para manipular ficheros, proporciona los métodos LoadFile y SaveFile los cuales admiten ficheros en varios formatos: tex-to sin formato, texto codificado en Unicode y formato de texto enriquecido (RTF). Asimismo, se puede utilizar el método Find para buscar cadenas de texto o carac-teres específicos.
+
+También puede utilizar un control RichTextBox para vínculos de estilo Web; para ello, establezca la propiedad DetectUrls en true y escriba código para controlar el evento LinkClicked.
