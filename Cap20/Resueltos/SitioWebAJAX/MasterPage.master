@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head id="Head1" runat="server">
+    <title>ASP.NET AJAX</title>
+    <link href="HojaDeEstilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript"
+      src="funciones.js">
+    </script>
+  </head>
+  <body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+      <div>
+        <img src="imagenes/ceballos.png" width="120" alt="logo ceballos" />
+        <p><script type="text/javascript">hora()</script></p>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+          <ContentTemplate>
+            <asp:Label ID="Label1" runat="server" Text="Hora actual:" Font-Names="Arial" Font-Size="X-Small"></asp:Label><br />
+            <asp:Label ID="etHora" runat="server" Text="Label" Font-Bold="True" Font-Names="Arial" Font-Size="X-Large"></asp:Label>
+            <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Timer1_Tick">
+            </asp:Timer>
+          </ContentTemplate>
+        </asp:UpdatePanel>
+      </div>
+      <div class="cabecera">
+        <h1>Listado de alumnos aptos/no aptos</h1>
+      </div>
+      <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+      </div>
+    </form>
+  </body>
+</html>

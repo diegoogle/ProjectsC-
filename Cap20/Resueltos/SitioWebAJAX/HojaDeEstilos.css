@@ -1,0 +1,244 @@
+* html .cabecera h2
+{
+  top: 35px;
+}
+* html .cabeceraconstruir, * html .cabecerainsertar
+{
+  height: 1%;
+}
+a, a:visited
+{
+  text-decoration: none;
+}
+a:hover, input
+{
+  color: #333333;
+}
+form
+{
+  width: 375px;
+}
+body
+{
+  background: #6B91C3;
+  font: "Segoe UI" , Segoe, sans-serif;
+  margin: 0;
+  padding: 18px;
+  background: url(imagenes/fondopagina.png) top left repeat-x;
+}
+em
+{
+  background: #EEEEEE;
+  font-style: normal;
+}
+li
+{
+  background: url(imagenes/bullet_purple.gif) top left no-repeat;
+  padding: 0 0 0 18px;
+}
+p
+{
+  line-height: 18px;
+  margin: 5px;
+}
+p, li, input
+{
+  color: #333333;
+  font: small "Segoe UI" , Segoe, sans-serif;
+  padding: 0;
+}
+ul
+{
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.contenido
+{
+  float: left;
+  margin: 5px 5px;
+  text-align: left;
+}
+.vistadetalles .actions div
+{
+  float: right;
+  text-align: right;
+  width: 95px;
+  padding-right: 2px;
+}
+.vistadetalles td
+{
+  background: #D7E6F4;
+  color: #333333;
+  font: small "Segoe UI" , Segoe, sans-serif;
+  padding: 15px 10px 10px 10px;
+}
+.vistadetalles td a
+{
+  color: #0066CC;
+  font: bold small "Segoe UI" , Segoe, sans-serif;
+  padding-right: 10px;
+}
+.vistadetalles td a:hover
+{
+  font-weight: bold;
+  color: #333;
+}
+.vistadetalles th
+{
+  background: #4168BD;
+  color: #FFFFFF;
+  font: small "Segoe UI" , Segoe, sans-serif;
+  letter-spacing: 0;
+  padding: 3px 8px 5px;
+  padding: 2px;
+  text-align: left;
+}
+.vistadetalles tr.cabecera
+{
+  background: #C5DBF7;
+  padding: 3px 8px 5px;
+}
+.vistarejilla .actions div
+{
+  float: right;
+  padding-right: 2px;
+  text-align: right;
+  width: 95px;
+}
+
+.vistarejilla .edit td, .vistarejilla .create td
+{
+  background: #DAFFCD;
+  padding: 4px;
+  border-bottom: solid 2px #FFFFFF;
+  border-top: solid 2px #FFFFFF;
+}
+
+.vistarejilla td
+{
+  background: #D7E6F4;
+  border-bottom: solid 1px #C5DBF7;
+  color: #333333;
+  font: small "Segoe UI" , Segoe, sans-serif;
+  padding: 5px 4px;
+}
+.vistarejilla td a
+{
+  color: #0066CC;
+  font: bold small "Segoe UI" ,Segoe,sans-serif;
+  padding: 2px;
+  text-decoration: none;
+}
+.vistarejilla td a:hover
+{
+  color: #333333;
+  font-weight: bold;
+}
+.vistarejilla th
+{
+  background: #4168BD;
+  color: #FFFFFF;
+  font: small "Segoe UI" , Segoe, sans-serif;
+  letter-spacing: 0;
+  padding: 4px;
+  text-align: left;
+}
+.vistarejilla th a
+{
+  color: #FFFFFF;
+  font: bold small "Segoe UI" ,Segoe,sans-serif;
+}
+.vistarejilla th a:hover
+{
+  color: #00FF00;
+}
+.vistarejilla tr.even td, .vistadetalles tr.even td
+{
+  background: #FFFFFF;
+}
+.vistarejilla tr.cabecera
+{
+  background: #C5DBF7;
+}
+.vistarejilla, .vistadetalles
+{
+  width: 100%;
+}
+.cabecera
+{
+  height: 50px;
+  margin-left: 5px;
+}
+.cabecera h1
+{
+  color: #10377C;
+  font: bold xx-large "Segoe UI" , Segoe, sans-serif;
+  margin: 0px;
+  white-space: nowrap;
+}
+.cabecera h2
+{
+  color: #666666;
+  font: x-small "Segoe UI" , Segoe, sans-serif;
+  position: absolute;
+  top: 28px;
+}
+.cabecera h2 a
+{
+  color: #6600CC;
+  font-weight: normal;
+}
+
+
+.cabecerainsertar
+{
+  color: Silver;
+  background: #10377C url(imagenes/add.gif) 6px 50% no-repeat;
+  margin-top: 25px;
+  padding-left: 25px;
+  position: relative;
+}
+.cabecerainsertar a
+{
+  color: #FFFFFF;
+  font: bold medium "Segoe UI" , Segoe, sans-serif;
+  margin-left: 20px;
+}
+
+.progreso
+{
+  color: #FFFF99;
+  float: right;
+  font: bold medium "Segoe UI" , Segoe, sans-serif;
+  margin-top: -19px;
+}
+.cabeceraconstruir
+{
+  color: Silver;
+  background: #10377C;
+  position: relative;
+}
+
+.cabeceraconstruir h2
+{
+  background: url(imagenes/corner.gif) top right no-repeat;
+  color: #FFFFFF;
+  font: bold medium "Segoe UI" , Segoe, sans-serif;
+  margin: 0;
+  padding: 8px 5px 5px 5px;
+}
+.cabecerainsertar h2
+{
+  color: #FFFFFF;
+  font: bold medium "Segoe UI" , Segoe, sans-serif;
+  margin: 0;
+  padding: 8px 5px 5px 5px;
+}
+
+
+
+
+
+
