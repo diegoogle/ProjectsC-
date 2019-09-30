@@ -1,0 +1,3 @@
+El usuario <%UserName%> ha solicitado su contraseña.
+Contraseña: <% Password %>
+
