@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bf78e0ead58644438e0d5daf86b77fd0" Name="Diagrama1">
+        <EntityTypeShape EntityType="ModeloBDNotasAlumnos.alumno" Width="1.875" PointX="0.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloBDNotasAlumnos.alum_asig" Width="1.875" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModeloBDNotasAlumnos.asignatura" Width="1.875" PointX="5.375" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="ModeloBDNotasAlumnos.FK__alums_asi__id_al__08EA5793" ManuallyRouted="false" />
+        <AssociationConnector Association="ModeloBDNotasAlumnos.FK__alums_asi__id_as__09DE7BCC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
