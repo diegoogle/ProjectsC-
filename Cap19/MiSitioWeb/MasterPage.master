@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="Controles/MenuPrincipal.ascx" TagName="MenuPrincipal" TagPrefix="uc1" %>
+<%@ Register Src="Controles/Login/Login.ascx" TagName="Login" TagPrefix="uc2" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title></title>
+  <link href="~/Estilos/StyleSheet.css" rel="stylesheet" type="text/css" />
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+  <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+  </asp:ToolkitScriptManager>
+  <div id="container">
+    <div id="header">
+      <table style="width: 100%">
+        <tr>
+          <td rowspan="2">
+            <asp:Image ID="Image1" runat="server" SkinID="MascLogo" Height="70px"
+              Width="160px" />
+          </td>
+          <td>
+            <h1>Mi sitio Web</h1>
+          </td>
+          <td>
+            <div class="fecha">
+              <asp:Label Font-Size="1.5em" ID="etFecha" runat="server" SkinID="MascFecha"/>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div class="tabs">
+              <uc1:MenuPrincipal ID="mp" runat="server" />
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="outer">
+      <div id="inner">
+        <div id="left">
+          <asp:Panel ID="Panel1" runat="server" SkinID="MascPanel">
+            <uc2:Login ID="Login1" runat="server" />
+          </asp:Panel>
+          <asp:Panel ID="Panel3" runat="server" SkinID="MascPanel">
+            <br /><br /><br /><br /><br /><br />Panel 3<br /><br /><br /><br /><br /><br />
+          </asp:Panel>
+        </div>
+        <div id="right">
+          <asp:Panel ID="Panel2" runat="server" SkinID="MascPanel">
+            <br /><br /><br /><br /><br /><br />Panel 2<br /><br /><br /><br /><br /><br />
+          </asp:Panel>
+          <asp:Panel ID="Panel4" runat="server" SkinID="MascPanel">
+            <br /><br /><br /><br /><br /><br />Panel 4<br /><br /><br /><br /><br /><br />
+          </asp:Panel>
+        </div>
+        <div id="central">
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+      </div>
+    </div>
+  </div>
+  <asp:RoundedCornersExtender ID="RoundedCornersExtender1" runat="server" TargetControlID="Panel1"
+                              Radius="14" BorderColor="DarkGray">
+  </asp:RoundedCornersExtender>
+  <asp:RoundedCornersExtender ID="RoundedCornersExtender2" runat="server" TargetControlID="Panel2"
+                              Radius="14" BorderColor="DarkGray">
+  </asp:RoundedCornersExtender>
+  <asp:RoundedCornersExtender ID="RoundedCornersExtender3" runat="server" TargetControlID="Panel3"
+                              Radius="14" BorderColor="DarkGray">
+  </asp:RoundedCornersExtender>
+  <asp:RoundedCornersExtender ID="RoundedCornersExtender4" runat="server" TargetControlID="Panel4"
+                              Radius="14" BorderColor="DarkGray">
+  </asp:RoundedCornersExtender>
+  </form>
+</body>
+</html>

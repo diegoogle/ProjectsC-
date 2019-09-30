@@ -1,0 +1,167 @@
+﻿body
+{
+  font-size: .80em;
+  font-family: "Arial" , "Lucida Grande" , "Segoe UI" , Helvetica Neue, Helvetica, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #696969;
+}
+
+#container
+{
+  width: 980px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header
+{
+  position: relative;
+  height: 108px;
+  width: 100%;
+  background: #8fafff;
+  margin-bottom: 22px;
+  top: 0px;
+  left: 0px;
+}
+
+#outer
+{
+  border-left: 229px solid #ffffff;
+  border-right: 229px solid #ffffff;
+  background-color: #ffffff;
+}
+
+#inner
+{
+  margin: 0px;
+  width: 100%;
+}
+
+#left
+{
+  width: 229px;
+  float: left;
+  position: relative;
+  margin-left: -231px;
+  margin-right: 1px;
+  text-align: center;
+}
+
+#right
+{
+  width: 229px;
+  float: right;
+  position: relative;
+  margin-right: -231px;
+  margin-left: 1px;
+  text-align: center;
+}
+
+#central
+{
+  position: relative;
+  margin: 1px;
+  width: 519px;
+}
+
+a:link
+{
+  color: #01336b;
+  text-decoration: none;
+}
+a:active
+{
+  color: #01336b;
+}
+a:visited
+{
+  color: #01336b;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #dd6900;
+  text-decoration: underline;
+}
+
+.fecha
+{
+  font-size: 1.1em;
+  display: block;
+  text-align: right;
+  padding: 10px;
+  color: Blue;
+}
+
+/* Menú principal */
+.tabs
+{
+  float: right;
+  width: 100%;
+  background: transparent;
+  font-size: 93%;
+  line-height: normal;
+  font: bold 11px/1.5em Verdana;
+  text-align: center;
+}
+
+.tabs ul
+{
+  margin: 0;
+  padding: 10px 10px 0 50px;
+  list-style: none;
+}
+
+.tabs li
+{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs a
+{
+  float: right;
+  background-image: url("Imagenes/tableft.gif");
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin: 0;
+  padding: 0 0 0 4px;
+  text-decoration: none;
+}
+
+.tabs a span
+{
+  float: right;
+  display: block;
+  background-image: url("Imagenes/tabright.gif");
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 5px 15px 4px 6px;
+  color: #666;
+}
+
+.tabs a span
+{
+  float: none;
+}
+
+.tabs a:hover span
+{
+  color: #FF9834;
+}
+
+.tabs a:hover
+{
+  background-position: 0% -42px;
+}
+
+.tabs a:hover span
+{
+  background-position: 100% -42px;
+}
+
+/* Login */
