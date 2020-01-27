@@ -1,0 +1,21 @@
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\bin\Release\CRT.exe.config
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\bin\Release\CRT.exe
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\bin\Release\CRT.pdb
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\bin\Release\CRT.xml
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_AUDITORIA.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_CHECK_AUDITORIA.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_CHECK_CONT.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_LOGIN.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_MAIN.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.Resources.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.vbproj.GenerateResource.cache
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.vbproj.CoreCompileInputs.cache
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.exe
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.xml
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.pdb
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.ALL_AUDITORIAS.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.FORM_RECALL.resources
+C:\Users\Analista Inventarios\Documents\Visual Studio 2017\Projects\CRT\CRT\obj\Release\CRT.vbprojResolveAssemblyReference.cache
+\\ram58\dc58\Ingenieria\DIEGO\CRT\CRT\CRT\obj\Release\CRT.exe
+\\ram58\dc58\Ingenieria\DIEGO\CRT\CRT\CRT\obj\Release\CRT.xml
+\\ram58\dc58\Ingenieria\DIEGO\CRT\CRT\CRT\obj\Release\CRT.pdb
