@@ -19,7 +19,7 @@ https://www.gemboxsoftware.com/bundle
 ![](img/component.jpg)
 
 
-# Excel documentation
+### Excel documentation
 
 https://www.gemboxsoftware.com/spreadsheet/examples/c-sharp-vb-net-excel-style-formatting/202
 
