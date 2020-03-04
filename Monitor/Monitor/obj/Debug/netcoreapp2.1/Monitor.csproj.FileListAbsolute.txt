@@ -1,0 +1,11 @@
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\bin\Debug\netcoreapp2.1\Monitor.deps.json
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\bin\Debug\netcoreapp2.1\Monitor.runtimeconfig.json
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\bin\Debug\netcoreapp2.1\Monitor.runtimeconfig.dev.json
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\bin\Debug\netcoreapp2.1\Monitor.dll
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\bin\Debug\netcoreapp2.1\Monitor.pdb
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.csprojAssemblyReference.cache
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.csproj.CoreCompileInputs.cache
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.AssemblyInfoInputs.cache
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.AssemblyInfo.cs
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.dll
+C:\Users\dgomez3\Documents\Visual Studio 2019\Projects\Monitor\Monitor\obj\Debug\netcoreapp2.1\Monitor.pdb
