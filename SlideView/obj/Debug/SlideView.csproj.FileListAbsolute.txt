@@ -1,0 +1,9 @@
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\bin\Debug\SlideView.exe.config
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\bin\Debug\SlideView.exe
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\bin\Debug\SlideView.pdb
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.csprojAssemblyReference.cache
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.Form1.resources
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.Properties.Resources.resources
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.csproj.GenerateResource.cache
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.exe
+C:\Users\PREDATOR\Documents\Visual Studio 2019\Projects\SlideView\obj\Debug\SlideView.pdb
