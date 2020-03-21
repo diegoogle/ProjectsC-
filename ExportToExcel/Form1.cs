@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,9 +53,9 @@ namespace ExportToExcel {
                 worksheet.Cells[i, 1].Value = table[i].name;
                 worksheet.Cells[i, 2].Value = table[i].value;
             }           
-            workbook.Save("Example.xlsx");
-            workbook.Save("Example.Pdf");
-            workbook.Save("Example.Jpg");
+            workbook.Save("C:\\Users\\PREDATOR\\Documents\\Example.xlsx");
+            workbook.Save("C:\\Users\\PREDATOR\\Documents\\Example.Pdf");
+            workbook.Save("C:\\Users\\PREDATOR\\Documents\\Example.Jpg");
             //ExcelFile.Load("Example.xlsx");
 
             Console.WriteLine("Finished!!");
@@ -62,6 +63,20 @@ namespace ExportToExcel {
 
         private void cmdExport_Click (object sender, EventArgs e) {
             exportToExcel();
+        }
+
+        private void button1_Click (object sender, EventArgs e) {
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Imagen jpg|*.jpg";
+            sfd.ShowDialog();            
+            if (sfd.FileName != "") {
+                Bitmap bmp = new Bitmap(dGridViewTable.Width, dGridViewTable.Height);
+                dGridViewTable.DrawToBitmap(bmp, new Rectangle(0, 0, dGridViewTable.Width, dGridViewTable.Height));
+                FileStream fs = new FileStream(sfd.FileName, FileMode.Create, FileAccess.Write);
+                bmp.Save(fs, System.Drawing.Imaging.ImageFormat.Bmp);
+                fs.Close();
+                bmp.Dispose();
+            }
         }
     }
 }
